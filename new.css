@@ -1,0 +1,108 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url('img/16578820090003.jpg') no-repeat;
+    background-size: cover;
+
+
+}
+
+.left {
+    display: inline block;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+
+}
+
+.left div {
+    text-align: left;
+
+
+}
+
+.left img {
+    height: 25%;
+    width: 25%;
+    border-radius: 17%;
+}
+
+.mid {
+    display: block;
+    width: 36%;
+    margin: 10px auto;
+
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 20px;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+
+}
+
+.navbar li a {
+    color: rgb(175, 195, 106);
+    text-decoration: none;
+    padding: 36px 8px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: brown;
+
+
+}
+
+.btn {
+    padding: 4px 14px;
+    background-color: black;
+    color: bisque;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: blue;
+}
+
+.container {
+    margin: 59px 2px;
+    padding: 106px 33px;
+    width: 342px;
+    position: absolute;
+    left: 104px;
+    border-radius: 7px;
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 241px;
+    padding: 6px;
+    border: 2px solid greenyellow;
+    margin: 5px auto;
+    font-style: oblique;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+form button {
+    left: 52px;
+    width: 225px;
+    text-align: center;
+    position: relative;
+    margin: 4px;
+}
+
+}
